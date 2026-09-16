@@ -1,0 +1,29 @@
+
+========================================================================
+  Evaluation: outputs/seed_sweep_B8_L8_split/psck_B8_binary_L8_ep1500_seed43
+  D=8, B=8, n=64q, L=8, enc=binary, loss=psck
+========================================================================
+
+  train: (38146, 64)   test: (9536, 64)
+  encoding floor train: ρ MAE = 0.051535
+  encoding floor test : ρ MAE = 0.054796
+
+[A] Low-order Z-correlator evaluation (M=100000) ...
+    model ⟨Z_β⟩ MC done in 43.1s (K_obs = 2080)
+    z MAE  train: 0.010442
+    z MAE  test : 0.014476
+    ρ MAE  train: 0.060962, r = 0.9911
+    ρ MAE  test : 0.062406,  r = 0.9900
+
+[B] Heat-kernel moment MMD ...
+    heat MMD²    train = 4.6217e-01, test = 5.3075e-01
+    uniform MMD² train = 1.1646e+00, test = 1.3654e+00
+
+[C] Per-feature exact-marginal recovery ...
+    intra-feature observables to estimate: 2040
+    MC budget per observable: 50000
+    note: weight-1 and weight-2 intra-feature observables are already in obs (low-order). We compute the higher-weight complement with a separate MC pass.
+    intra-feature ⟨Z_β⟩ MC done in 30.4s
+    per-feature W₁ (levels) test: mean = 14.3586, max = 24.8723
+    per-feature KS         test: mean = 0.1170, max = 0.2173
+    per-feature TV         test: mean = 0.1666, max = 0.2959

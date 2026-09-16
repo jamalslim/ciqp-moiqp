@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper and the dataset."
+title: "PSCK-MoIQP: IQP Born machines for calorimeter shower profiles"
+abstract: >-
+  Classical training and compilation code for Mixture-of-IQP Born
+  machines with the Pearson-Stabilized Correlation Kernel. Includes the Van den
+  Nest correlator estimator, the Walsh-Hadamard compilation to a single IQP
+  circuit, and the loss certificate.
+type: software
+license: MIT
+version: 1.0.0
+authors:
+  - family-names: Slim
+    given-names: Jamal
+    affiliation: "Deutsches Elektronen-Synchrotron DESY"
+    email: jamal.slim@desy.de
+  - family-names: Monaco
+    given-names: Saverio
+    affiliation: "Deutsches Elektronen-Synchrotron DESY / RWTH Aachen University"
+  - family-names: Rehm
+    given-names: Florian
+    affiliation: "European Organization for Nuclear Research (CERN)"
+  - family-names: Kruecker
+    given-names: Dirk
+    affiliation: "Deutsches Elektronen-Synchrotron DESY"
+  - family-names: Borras
+    given-names: Kerstin
+    affiliation: "Deutsches Elektronen-Synchrotron DESY / RWTH Aachen University"
+keywords:
+  - quantum machine learning
+  - IQP circuits
+  - Born machine
+  - calorimeter simulation
+  - high-energy physics
+references:
+  - type: data
+    title: "clic (v1.0.0)"
+    doi: 10.5281/zenodo.16027525

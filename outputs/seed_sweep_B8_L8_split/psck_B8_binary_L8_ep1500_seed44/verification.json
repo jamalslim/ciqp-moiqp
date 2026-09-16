@@ -1,0 +1,21 @@
+{
+  "n_feat": 64,
+  "n_control": 3,
+  "n_total": 67,
+  "L": 8,
+  "M_verify": 200000,
+  "mae_ciqp_vs_moiqp": 0.0013823599703504377,
+  "mc_noise_scale": 0.00223606797749979,
+  "ratio": 0.6182101726156345,
+  "rho_mae_ciqp_vs_moiqp": 0.0009455937208616254,
+  "n_deploy_gates": 2296,
+  "weight_histogram": {
+    "1": 64,
+    "2": 415,
+    "3": 861,
+    "4": 733,
+    "5": 223
+  },
+  "max_weight": 5,
+  "passed": true
+}

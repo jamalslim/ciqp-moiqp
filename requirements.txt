@@ -1,0 +1,9 @@
+# Core. Everything except the hardware scripts runs with these alone.
+numpy>=1.24
+scipy>=1.10
+
+# Figures.
+matplotlib>=3.6
+
+# scripts/audit_simulability.py only, for the min-fill treewidth heuristic.
+networkx>=3.0
